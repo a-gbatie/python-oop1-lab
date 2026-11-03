@@ -15,3 +15,6 @@ class Book: # create a class called Book
     if not isinstance(value, int) or value < 0: # checks whether value is a non-negative integer 
       raise TypeError("Page count must be a non-negative integer") # rejects invalid values
     self._page_count = value # stores the validated value in a private attribute called _page_count
+    
+  def turn_page(self):
+    self.page_count += 1
