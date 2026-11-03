@@ -18,3 +18,4 @@ class Book: # create a class called Book
     
   def turn_page(self):
     self.page_count += 1
+    print("Flipping the page...wow, you read fast!")
