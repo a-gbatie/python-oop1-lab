@@ -6,7 +6,7 @@ class Coffee:
     self.price = price
 
   def tip(self):
-    print("Thanks for the tip!")
+    print("This coffee is great, here’s a tip!")
   
   @property
   def size(self):
